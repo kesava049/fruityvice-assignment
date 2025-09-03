@@ -11,4 +11,4 @@ npm run dev
 
 ## Deployed on Vercel
 
-link: 
+link: fruityvice-assignment-hd9p.vercel.app
