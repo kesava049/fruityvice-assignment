@@ -1,6 +1,7 @@
 'use client'
 import { useState } from 'react'
 import './globals.css'
+import Image from 'next/image';
 
 export default function Home(){
   const [url, setUrl] = useState('api/fruit/all');
@@ -45,7 +46,13 @@ const handleFetch = async () => {
         </div>
         <div className='image'>
           <div className='container'>
-            <img src="https://www.fruityvice.com/images/cherry.png" alt="cherrys"></img>
+            <Image 
+              src="https://www.fruityvice.com/images/cherry.png" 
+              alt="cherrys" 
+              width={800} 
+              height={800} 
+              style={{ width: "100%", height: "auto" }}
+            />
             <div className='middle'>
               <div
                 className="text"
@@ -70,7 +77,7 @@ const handleFetch = async () => {
         </div>
         <div className='image2'>
           <div className='container'>
-            <img src="https://www.fruityvice.com/images/watermelon.png" alt="cherrys"></img>
+            <Image src="https://www.fruityvice.com/images/watermelon.png" alt="watermelon" width={800} height={800} style={{ width: "100%", height: "auto" }}/>
             <div className='middle'>
               <div
                 className="text"
@@ -90,7 +97,7 @@ const handleFetch = async () => {
               and a function to add your own data. An example of what the response body would look like can be seen on the 
               right. To receive the shown data, you have to make a <b className="bolt">HTTP GET</b> call on the resource
               <b className="bolt"> /api/fruit/ID</b> or
-              <b className="bolt">/api/fruit/name</b> of this website's IP. To add data, make a <b className="bolt">HTTP PUT</b>
+              <b className="bolt">/api/fruit/name</b> of this websites IP. To add data, make a <b className="bolt">HTTP PUT</b>
                 call on the resource <b className="bolt">/api/fruit</b> with 
                 the data of a fruit in JSON format in the request body. An ID does not have to be provided. A 
                 full documentation for the REST API can be found <a href="https://www.fruityvice.com/doc/index.html">here.</a>
@@ -102,7 +109,7 @@ const handleFetch = async () => {
           </ul>
         </div>
         <div className='imagec3'>
-            <img className="image3" src="https://www.fruityvice.com/images/apiexample.png" alt="response"></img>
+            <Image className="image3" src="https://www.fruityvice.com/images/apiexample.png" alt="response" width={800} height={800} style={{ width: "100%", height: "auto" }}/>
         </div>
       </section>
       <section className='sectionfour'>
