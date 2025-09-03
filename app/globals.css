@@ -1,657 +1,674 @@
+
 @import "tailwindcss";
 
 
 .sectionone {
-    @media screen {
-        --vimium-background-color: #1d1d1f;
-        --vimium-background-text-color: #e3e3e3;
-        --vimium-foreground-color: #292a2d;
-        --vimium-foreground-text-color: #e8eaed;
-        --vimium-link-color: #8ab4f8;
-        -webkit-text-size-adjust: none;
-        color: #000000;
-        box-sizing: inherit;
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font: inherit;
-        vertical-align: baseline;
-        align-items: stretch;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        position: relative;
-        text-align: left;
-        overflow-x: hidden;
-        min-height: 100vh;
-        box-shadow: none !important;
-    }
+    --vimium-background-color: #1d1d1f;
+    --vimium-background-text-color: #e3e3e3;
+    --vimium-foreground-color: #292a2d;
+    --vimium-foreground-text-color: #e8eaed;
+    --vimium-link-color: #8ab4f8;
+    -webkit-text-size-adjust: none;
+    color: #000000;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+    text-align: left;
+    overflow-x: hidden;
+    min-height: 100vh;
+    box-shadow: none !important;
 }
 .content {
-    @media screen {
-        --vimium-background-color: #1d1d1f;
-        --vimium-background-text-color: #e3e3e3;
-        --vimium-foreground-color: #292a2d;
-        --vimium-foreground-text-color: #e8eaed;
-        --vimium-link-color: #8ab4f8;
-        -webkit-text-size-adjust: none;
-        color: #000000;
-        text-align: left;
-        box-sizing: inherit;
-        border: 0;
-        font: inherit;
-        vertical-align: baseline;
-        transition: opacity 0.75s ease-in-out, transform 0.75s ease-in-out;
-        align-self: center;
-        flex-grow: 1;
-        flex-shrink: 1;
-        width: 50%;
-        max-width: 48rem;
-        margin: 0 auto;
-        padding: 5rem 5rem 3rem 5rem;
-    }
+    --vimium-background-color: #1d1d1f;
+    --vimium-background-text-color: #e3e3e3;
+    --vimium-foreground-color: #292a2d;
+    --vimium-foreground-text-color: #e8eaed;
+    --vimium-link-color: #8ab4f8;
+    -webkit-text-size-adjust: none;
+    color: #000000;
+    text-align: left;
+    box-sizing: inherit;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    transition: opacity 0.75s ease-in-out, transform 0.75s ease-in-out;
+    align-self: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 50%;
+    max-width: 48rem;
+    margin: 0 auto;
+    padding: 5rem 5rem 3rem 5rem;
 }
 .divided {
-    @media screen {
-        --vimium-background-color: #1d1d1f;
-        --vimium-background-text-color: #e3e3e3;
-        --vimium-foreground-color: #292a2d;
-        --vimium-foreground-text-color: #e8eaed;
-        --vimium-link-color: #8ab4f8;
-        -webkit-text-size-adjust: none;
-        color: #000000;
-        box-sizing: inherit;
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font: inherit;
-        vertical-align: baseline;
-        overflow: hidden;
-        background-color: inherit;
-        width: 100%;
-        overflow-x: hidden;
-    }
+    --vimium-background-color: #1d1d1f;
+    --vimium-background-text-color: #e3e3e3;
+    --vimium-foreground-color: #292a2d;
+    --vimium-foreground-text-color: #e8eaed;
+    --vimium-link-color: #8ab4f8;
+    -webkit-text-size-adjust: none;
+    color: #000000;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    overflow: hidden;
+    background-color: inherit;
+    width: 100%;
+    overflow-x: hidden;
 }
 .heading {
-    @media screen {
-        --vimium-background-color: #1d1d1f;
-        --vimium-background-text-color: #e3e3e3;
-        --vimium-foreground-color: #292a2d;
-        --vimium-foreground-text-color: #e8eaed;
-        --vimium-link-color: #8ab4f8;
-        -webkit-text-size-adjust: none;
-        text-align: left;
-        box-sizing: inherit;
-        padding: 0;
-        border: 0;
-        font: inherit;
-        vertical-align: baseline;
-        font-weight: 300;
-        letter-spacing: -0.05em;
-        margin: 0 0 1rem 0;
-        font-size: 3.5rem;
-        line-height: 1.2;
-        color: #000000;
-    }
+    --vimium-background-color: #1d1d1f;
+    --vimium-background-text-color: #e3e3e3;
+    --vimium-foreground-color: #292a2d;
+    --vimium-foreground-text-color: #e8eaed;
+    --vimium-link-color: #8ab4f8;
+    -webkit-text-size-adjust: none;
+    text-align: left;
+    box-sizing: inherit;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    font-weight: 300;
+    letter-spacing: -0.05em;
+    margin: 0 0 1rem 0;
+    font-size: 3.5rem;
+    line-height: 1.2;
+    color: #000000;
 }
 .paragraph {
-    @media screen {
-        --vimium-background-color: #1d1d1f;
-        --vimium-background-text-color: #e3e3e3;
-        --vimium-foreground-color: #292a2d;
-        --vimium-foreground-text-color: #e8eaed;
-        --vimium-link-color: #8ab4f8;
-        -webkit-text-size-adjust: none;
-        color: #000000;
-        text-align: left;
-        box-sizing: inherit;
-        padding: 0;
-        border: 0;
-        font: inherit;
-        vertical-align: baseline;
-        margin: 0 0 2rem 0;
-        font-size: 1.25rem;
-    }
+    --vimium-background-color: #1d1d1f;
+    --vimium-background-text-color: #e3e3e3;
+    --vimium-foreground-color: #292a2d;
+    --vimium-foreground-text-color: #e8eaed;
+    --vimium-link-color: #8ab4f8;
+    -webkit-text-size-adjust: none;
+    color: #000000;
+    text-align: left;
+    box-sizing: inherit;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    margin: 0 0 2rem 0;
+    font-size: 1.25rem;
 }
-    
 .actionsstacked {
-    @media screen {
-        --vimium-background-color: #1d1d1f;
-        --vimium-background-text-color: #e3e3e3;
-        --vimium-foreground-color: #292a2d;
-        --vimium-foreground-text-color: #e8eaed;
-        --vimium-link-color: #8ab4f8;
-        -webkit-text-size-adjust: none;
-        color: #000000;
-        text-align: left;
-        box-sizing: inherit;
-        padding: 0;
-        border: 0;
-        font: inherit;
-        vertical-align: baseline;
-        margin: 0 0 2rem 0;
-        display: flex;
-        cursor: default;
-        list-style: none;
-        padding-left: 0;
-        flex-direction: column;
-        margin-left: 0;
-    }
+    --vimium-background-color: #1d1d1f;
+    --vimium-background-text-color: #e3e3e3;
+    --vimium-foreground-color: #292a2d;
+    --vimium-foreground-text-color: #e8eaed;
+    --vimium-link-color: #8ab4f8;
+    -webkit-text-size-adjust: none;
+    color: #000000;
+    text-align: left;
+    box-sizing: inherit;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    margin: 0 0 2rem 0;
+    display: flex;
+    cursor: default;
+    list-style: none;
+    padding-left: 0;
+    flex-direction: column;
+    margin-left: 0;
 }
 .buttonstyle {
-    @media screen {
-        --vimium-background-color: #1d1d1f;
-        --vimium-background-text-color: #e3e3e3;
-        --vimium-foreground-color: #292a2d;
-        --vimium-foreground-text-color: #e8eaed;
-        --vimium-link-color: #8ab4f8;
-        -webkit-text-size-adjust: none;
-        list-style: none;
-        box-sizing: inherit;
-        margin: 0;
-        font: inherit;
-        vertical-align: baseline;
-        appearance: none;
-        transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
-        border: 0;
-        cursor: pointer;
-        display: inline-block;
-        font-weight: 400;
-        letter-spacing: 0.125em;
-        text-align: center;
-        text-decoration: none;
-        text-transform: uppercase;
-        white-space: nowrap;
-        font-size: 0.75rem;
-        max-width: 20rem;
-        height: 3.75em;
-        line-height: 3.75em;
-        border-radius: 3.75em;
-        padding: 0 2.5em;
-        text-overflow: ellipsis;
-        overflow: hidden;
-        background-color: transparent;
-        box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2);
-        color: #000000 !important;
-        min-width: 14em;
-    }
+    --vimium-background-color: #1d1d1f;
+    --vimium-background-text-color: #e3e3e3;
+    --vimium-foreground-color: #292a2d;
+    --vimium-foreground-text-color: #e8eaed;
+    --vimium-link-color: #8ab4f8;
+    -webkit-text-size-adjust: none;
+    list-style: none;
+    box-sizing: inherit;
+    margin: 0;
+    font: inherit;
+    vertical-align: baseline;
+    appearance: none;
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    letter-spacing: 0.125em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-size: 0.75rem;
+    max-width: 20rem;
+    height: 3.75em;
+    line-height: 3.75em;
+    border-radius: 3.75em;
+    padding: 0 2.5em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    background-color: transparent;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2);
+    color: #000000 !important;
+    min-width: 14em;
 }
-
 .container {
-    @media screen {
-        --vimium-background-color: #1d1d1f;
-        --vimium-background-text-color: #e3e3e3;
-        --vimium-foreground-color: #292a2d;
-        --vimium-foreground-text-color: #e8eaed;
-        --vimium-link-color: #8ab4f8;
-        -webkit-text-size-adjust: none;
-        color: #000000;
-        text-align: left;
-        box-sizing: inherit;
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font: inherit;
-        vertical-align: baseline;
-    }
+    --vimium-background-color: #1d1d1f;
+    --vimium-background-text-color: #e3e3e3;
+    --vimium-foreground-color: #292a2d;
+    --vimium-foreground-text-color: #e8eaed;
+    --vimium-link-color: #8ab4f8;
+    -webkit-text-size-adjust: none;
+    color: #000000;
+    text-align: left;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
 }
 .image {
-    @media screen {
-        --vimium-background-color: #1d1d1f;
-        --vimium-background-text-color: #e3e3e3;
-        --vimium-foreground-color: #292a2d;
-        --vimium-foreground-text-color: #e8eaed;
-        --vimium-link-color: #8ab4f8;
-        -webkit-text-size-adjust: none;
-        color: #000000;
-        text-align: left;
-        box-sizing: inherit;
-        margin: 0;
-        padding: 0;
-        font: inherit;
-        vertical-align: baseline;
-        opacity: 1;
-        height: auto;
-        transition: .5s ease;
-        backface-visibility: hidden;
-        border: 0;
-        display: inline-block;
-        position: relative;
-        background-color: rgba(0, 0, 0, 0.125);
-        flex-grow: 0;
-        flex-shrink: 0;
-        border-radius: 0;
-        width: 50%;
-    }
+    --vimium-background-color: #1d1d1f;
+    --vimium-background-text-color: #e3e3e3;
+    --vimium-foreground-color: #292a2d;
+    --vimium-foreground-text-color: #e8eaed;
+    --vimium-link-color: #8ab4f8;
+    -webkit-text-size-adjust: none;
+    color: #000000;
+    text-align: left;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    vertical-align: baseline;
+    opacity: 1;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border: 0;
+    display: inline-block;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.125);
+    flex-grow: 0;
+    flex-shrink: 0;
+    border-radius: 0;
+    width: 50%;
 }
 .middle {
-    @media screen {
-        --vimium-background-color: #1d1d1f;
-        --vimium-background-text-color: #e3e3e3;
-        --vimium-foreground-color: #292a2d;
-        --vimium-foreground-text-color: #e8eaed;
-        --vimium-link-color: #8ab4f8;
-        -webkit-text-size-adjust: none;
-        color: #000000;
-        text-align: left;
-        box-sizing: inherit;
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font: inherit;
-        vertical-align: baseline;
-        bottom: 0;
-        transition: .5s ease;
-        opacity: 0;
-        position: absolute;
-        transform: translate(-50%, -50%);
-    }
+    --vimium-background-color: #1d1d1f;
+    --vimium-background-text-color: #e3e3e3;
+    --vimium-foreground-color: #292a2d;
+    --vimium-foreground-text-color: #e8eaed;
+    --vimium-link-color: #8ab4f8;
+    -webkit-text-size-adjust: none;
+    color: #000000;
+    text-align: left;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    bottom: 0;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
 }
 .text {
-    @media screen {
-        --vimium-background-color: #1d1d1f;
-        --vimium-background-text-color: #e3e3e3;
-        --vimium-foreground-color: #292a2d;
-        --vimium-foreground-text-color: #e8eaed;
-        --vimium-link-color: #8ab4f8;
-        -webkit-text-size-adjust: none;
-        text-align: left;
-        box-sizing: inherit;
-        margin: 0;
-        border: 0;
-        font: inherit;
-        vertical-align: baseline;
-        background-color: #898c89;
-        color: white;
-        font-size: 16px;
-        padding: 16px 32px;
-        position: absolute;
-        bottom: 0;
-        cursor: pointer;
-    }
+    --vimium-background-color: #1d1d1f;
+    --vimium-background-text-color: #e3e3e3;
+    --vimium-foreground-color: #292a2d;
+    --vimium-foreground-text-color: #e8eaed;
+    --vimium-link-color: #8ab4f8;
+    -webkit-text-size-adjust: none;
+    text-align: left;
+    box-sizing: inherit;
+    margin: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    background-color: #898c89;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
 }
 .heading2 {
-    @media screen {
-        --vimium-background-color: #1d1d1f;
-        --vimium-background-text-color: #e3e3e3;
-        --vimium-foreground-color: #292a2d;
-        --vimium-foreground-text-color: #e8eaed;
-        --vimium-link-color: #8ab4f8;
-        -webkit-text-size-adjust: none;
-        text-align: left;
-        box-sizing: inherit;
-        padding: 0;
-        border: 0;
-        font: inherit;
-        vertical-align: baseline;
-        font-weight: 300;
-        line-height: 1.375;
-        letter-spacing: -0.05em;
-        margin: 0 0 1rem 0;
-        font-size: 2.25rem;
-        color: #000000;
-    }
+    --vimium-background-color: #1d1d1f;
+    --vimium-background-text-color: #e3e3e3;
+    --vimium-foreground-color: #292a2d;
+    --vimium-foreground-text-color: #e8eaed;
+    --vimium-link-color: #8ab4f8;
+    -webkit-text-size-adjust: none;
+    text-align: left;
+    box-sizing: inherit;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    font-weight: 300;
+    line-height: 1.375;
+    letter-spacing: -0.05em;
+    margin: 0 0 1rem 0;
+    font-size: 2.25rem;
+    color: #000000;
 }
 .sectiontwo{
-    @media screen {
-        --vimium-background-color: #1d1d1f;
-        --vimium-background-text-color: #e3e3e3;
-        --vimium-foreground-color: #292a2d;
-        --vimium-foreground-text-color: #e8eaed;
-        --vimium-link-color: #8ab4f8;
-        -webkit-text-size-adjust: none;
-        color: #000000;
-        box-sizing: inherit;
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font: inherit;
-        vertical-align: baseline;
-        align-items: stretch;
-        display: flex;
-        justify-content: flex-end;
-        position: relative;
-        overflow-x: hidden;
-        text-align: left;
-        flex-direction: row-reverse;
-        box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.075);
-    }
+    --vimium-background-color: #1d1d1f;
+    --vimium-background-text-color: #e3e3e3;
+    --vimium-foreground-color: #292a2d;
+    --vimium-foreground-text-color: #e8eaed;
+    --vimium-link-color: #8ab4f8;
+    -webkit-text-size-adjust: none;
+    color: #000000;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    align-items: stretch;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    overflow-x: hidden;
+    text-align: left;
+    flex-direction: row-reverse;
+    box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.075);
 }
 .image2{
-    @media screen {
-        --vimium-background-color: #1d1d1f;
-        --vimium-background-text-color: #e3e3e3;
-        --vimium-foreground-color: #292a2d;
-        --vimium-foreground-text-color: #e8eaed;
-        --vimium-link-color: #8ab4f8;
-        -webkit-text-size-adjust: none;
-        color: #000000;
-        text-align: left;
-        box-sizing: inherit;
-        margin: 0;
-        padding: 0;
-        font: inherit;
-        vertical-align: baseline;
-        opacity: 1;
-        height: auto;
-        transition: .5s ease;
-        backface-visibility: hidden;
-        border: 0;
-        display: inline-block;
-        position: relative;
-        background-color: rgba(0, 0, 0, 0.125);
-        flex-grow: 0;
-        flex-shrink: 0;
-        width: 35%;
-        min-width: 25rem;
-        border-radius: 0;
-    }
+    --vimium-background-color: #1d1d1f;
+    --vimium-background-text-color: #e3e3e3;
+    --vimium-foreground-color: #292a2d;
+    --vimium-foreground-text-color: #e8eaed;
+    --vimium-link-color: #8ab4f8;
+    -webkit-text-size-adjust: none;
+    color: #000000;
+    text-align: left;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    vertical-align: baseline;
+    opacity: 1;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border: 0;
+    display: inline-block;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.125);
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 35%;
+    min-width: 25rem;
+    border-radius: 0;
 }
 .imagec3 {
-    @media screen {
-        --vimium-background-color: #1d1d1f;
-        --vimium-background-text-color: #e3e3e3;
-        --vimium-foreground-color: #292a2d;
-        --vimium-foreground-text-color: #e8eaed;
-        --vimium-link-color: #8ab4f8;
-        -webkit-text-size-adjust: none;
-        color: #000000;
-        text-align: left;
-        box-sizing: inherit;
-        margin: 0;
-        padding: 0;
-        font: inherit;
-        vertical-align: baseline;
-        opacity: 1;
-        height: auto;
-        transition: .5s ease;
-        backface-visibility: hidden;
-        border: 0;
-        display: inline-block;
-        position: relative;
-        background-color: rgba(0, 0, 0, 0.125);
-        flex-grow: 0;
-        flex-shrink: 0;
-        width: 35%;
-        min-width: 25rem;
-        border-radius: 0;
-    }
+    --vimium-background-color: #1d1d1f;
+    --vimium-background-text-color: #e3e3e3;
+    --vimium-foreground-color: #292a2d;
+    --vimium-foreground-text-color: #e8eaed;
+    --vimium-link-color: #8ab4f8;
+    -webkit-text-size-adjust: none;
+    color: #000000;
+    text-align: left;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    vertical-align: baseline;
+    opacity: 1;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border: 0;
+    display: inline-block;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.125);
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 35%;
+    min-width: 25rem;
+    border-radius: 0;
 }
 .sectionthree {
-    @media screen {
-        --vimium-background-color: #1d1d1f;
-        --vimium-background-text-color: #e3e3e3;
-        --vimium-foreground-color: #292a2d;
-        --vimium-foreground-text-color: #e8eaed;
-        --vimium-link-color: #8ab4f8;
-        -webkit-text-size-adjust: none;
-        color: #000000;
-        box-sizing: inherit;
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font: inherit;
-        vertical-align: baseline;
-        align-items: stretch;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        position: relative;
-        overflow-x: hidden;
-        text-align: left;
-        box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.075);
-    }
+    --vimium-background-color: #1d1d1f;
+    --vimium-background-text-color: #e3e3e3;
+    --vimium-foreground-color: #292a2d;
+    --vimium-foreground-text-color: #e8eaed;
+    --vimium-link-color: #8ab4f8;
+    -webkit-text-size-adjust: none;
+    color: #000000;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+    overflow-x: hidden;
+    text-align: left;
+    box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.075);
 }
 .image3{
-    @media screen {
-        --vimium-background-color: #1d1d1f;
-        --vimium-background-text-color: #e3e3e3;
-        --vimium-foreground-color: #292a2d;
-        --vimium-foreground-text-color: #e8eaed;
-        --vimium-link-color: #8ab4f8;
-        -webkit-text-size-adjust: none;
-        color: #000000;
-        text-align: left;
-        box-sizing: inherit;
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font: inherit;
-        vertical-align: baseline;
-        transition: opacity 0.75s ease-in-out;
-        object-fit: cover;
-        object-position: center;
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border-radius: 0;
-    }
+    --vimium-background-color: #1d1d1f;
+    --vimium-background-text-color: #e3e3e3;
+    --vimium-foreground-color: #292a2d;
+    --vimium-foreground-text-color: #e8eaed;
+    --vimium-link-color: #8ab4f8;
+    -webkit-text-size-adjust: none;
+    color: #000000;
+    text-align: left;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    display: block;
+    transition: opacity 0.75s ease-in-out;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
 }
 .sectionfour {
-    @media screen {
-        --vimium-background-color: #1d1d1f;
-        --vimium-background-text-color: #e3e3e3;
-        --vimium-foreground-color: #292a2d;
-        --vimium-foreground-text-color: #e8eaed;
-        --vimium-link-color: #8ab4f8;
-        -webkit-text-size-adjust: none;
-        color: #000000;
-        box-sizing: inherit;
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font: inherit;
-        vertical-align: baseline;
-        align-items: stretch;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        position: relative;
-        overflow-x: hidden;
-        text-align: left;
-        box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.075);
-    }
+    --vimium-background-color: #1d1d1f;
+    --vimium-background-text-color: #e3e3e3;
+    --vimium-foreground-color: #292a2d;
+    --vimium-foreground-text-color: #e8eaed;
+    --vimium-link-color: #8ab4f8;
+    -webkit-text-size-adjust: none;
+    color: #000000;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+    overflow-x: hidden;
+    text-align: left;
+    box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.075);
 }
 .wrapper {
-    @media screen {
-        --vimium-background-color: #1d1d1f;
-        --vimium-background-text-color: #e3e3e3;
-        --vimium-foreground-color: #292a2d;
-        --vimium-foreground-text-color: #e8eaed;
-        --vimium-link-color: #8ab4f8;
-        -webkit-text-size-adjust: none;
-        color: #000000;
-        text-align: left;
-        box-sizing: inherit;
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font: inherit;
-        vertical-align: baseline;
-        overflow: hidden;
-        background-color: inherit;
-        width: 100%;
-        overflow-x: hidden;
-    }
+    --vimium-background-color: #1d1d1f;
+    --vimium-background-text-color: #e3e3e3;
+    --vimium-foreground-color: #292a2d;
+    --vimium-foreground-text-color: #e8eaed;
+    --vimium-link-color: #8ab4f8;
+    -webkit-text-size-adjust: none;
+    color: #000000;
+    text-align: left;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    overflow: hidden;
+    background-color: inherit;
+    width: 100%;
+    overflow-x: hidden;
 }
 .field1 {
-    @media screen {
-        --vimium-background-color: #1d1d1f;
-        --vimium-background-text-color: #e3e3e3;
-        --vimium-foreground-color: #292a2d;
-        --vimium-foreground-text-color: #e8eaed;
-        --vimium-link-color: #8ab4f8;
-        -webkit-text-size-adjust: none;
-        color: #000000;
-        box-sizing: inherit;
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font: inherit;
-        vertical-align: baseline;
-        width: 15%;
-        min-width: 102px;
-        float: left;
-        text-align: left !important;
-    }
+    --vimium-background-color: #1d1d1f;
+    --vimium-background-text-color: #e3e3e3;
+    --vimium-foreground-color: #292a2d;
+    --vimium-foreground-text-color: #e8eaed;
+    --vimium-link-color: #8ab4f8;
+    -webkit-text-size-adjust: none;
+    color: #000000;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    width: 15%;
+    min-width: 102px;
+    float: left;
+    text-align: left !important;
 }
 .field2 {
-    @media screen {
-        --vimium-background-color: #1d1d1f;
-        --vimium-background-text-color: #e3e3e3;
-        --vimium-foreground-color: #292a2d;
-        --vimium-foreground-text-color: #e8eaed;
-        --vimium-link-color: #8ab4f8;
-        -webkit-text-size-adjust: none;
-        color: #000000;
-        box-sizing: inherit;
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font: inherit;
-        vertical-align: baseline;
-        overflow: hidden;
-        text-align: left !important;
-    }
+    --vimium-background-color: #1d1d1f;
+    --vimium-background-text-color: #e3e3e3;
+    --vimium-foreground-color: #292a2d;
+    --vimium-foreground-text-color: #e8eaed;
+    --vimium-link-color: #8ab4f8;
+    -webkit-text-size-adjust: none;
+    color: #000000;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    overflow: hidden;
+    text-align: left !important;
 }
 .label {
-    @media screen {
-        --vimium-background-color: #1d1d1f;
-        --vimium-background-text-color: #e3e3e3;
-        --vimium-foreground-color: #292a2d;
-        --vimium-foreground-text-color: #e8eaed;
-        --vimium-link-color: #8ab4f8;
-        -webkit-text-size-adjust: none;
-        text-align: left !important;
-        box-sizing: inherit;
-        padding: 0;
-        border: 0;
-        font: inherit;
-        vertical-align: baseline;
-        display: block;
-        font-size: 0.9rem;
-        font-weight: 400;
-        margin: 0 0 1rem 0;
-        color: #000000;
-    }
+    --vimium-background-color: #1d1d1f;
+    --vimium-background-text-color: #e3e3e3;
+    --vimium-foreground-color: #292a2d;
+    --vimium-foreground-text-color: #e8eaed;
+    --vimium-link-color: #8ab4f8;
+    -webkit-text-size-adjust: none;
+    text-align: left !important;
+    box-sizing: inherit;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    display: block;
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin: 0 0 1rem 0;
+    color: #000000;
 }
 .selection {
-    @media screen {
-        --vimium-background-color: #1d1d1f;
-        --vimium-background-text-color: #e3e3e3;
-        --vimium-foreground-color: #292a2d;
-        --vimium-foreground-text-color: #e8eaed;
-        --vimium-link-color: #8ab4f8;
-        -webkit-text-size-adjust: none;
-        box-sizing: inherit;
-        font-family: "Source Sans Pro", Helvetica, sans-serif;
-        font-size: 1rem;
-        font-weight: 300;
-        line-height: 1.65;
-        appearance: none;
-        background-color: transparent;
-        border-radius: 4px;
-        border: solid 1px;
-        color: inherit;
-        display: block;
-        outline: 0;
-        padding: 0 0.825rem;
-        text-decoration: none;
-        width: 100%;
-        background-size: 1.25rem;
-        background-repeat: no-repeat;
-        background-position: calc(100% - 1rem) center;
-        padding-right: 2.75rem;
-        text-overflow: ellipsis;
-        height: 2.75rem;
-        border-color: rgba(0, 0, 0, 0.2);
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgba(0, 0, 0, 0.2)' /%3E%3C/svg%3E");
-    }
+    --vimium-background-color: #1d1d1f;
+    --vimium-background-text-color: #e3e3e3;
+    --vimium-foreground-color: #292a2d;
+    --vimium-foreground-text-color: #e8eaed;
+    --vimium-link-color: #8ab4f8;
+    -webkit-text-size-adjust: none;
+    box-sizing: inherit;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.65;
+    appearance: none;
+    background-color: transparent;
+    border-radius: 4px;
+    border: solid 1px;
+    color: inherit;
+    display: block;
+    outline: 0;
+    padding: 0 0.825rem;
+    text-decoration: none;
+    width: 100%;
+    background-size: 1.25rem;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 1rem) center;
+    padding-right: 2.75rem;
+    text-overflow: ellipsis;
+    height: 2.75rem;
+    border-color: rgba(0, 0, 0, 0.2);
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgba(0, 0, 0, 0.2)' /%3E%3C/svg%3E");
 }
 .option {
-    @media screen {
-        -webkit-text-size-adjust: none;
-        font-family: "Source Sans Pro", Helvetica, sans-serif;
-        font-size: 1rem;
-        line-height: 1.65;
-        box-sizing: inherit;
-        color: #000000;
-        background: #ffffff;
+    -webkit-text-size-adjust: none;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.65;
+    box-sizing: inherit;
+    color: #000000;
+    background: #ffffff;
+}
+.input {
+    --vimium-background-color: #1d1d1f;
+    --vimium-background-text-color: #e3e3e3;
+    --vimium-foreground-color: #292a2d;
+    --vimium-foreground-text-color: #e8eaed;
+    --vimium-link-color: #8ab4f8;
+    -webkit-text-size-adjust: none;
+    box-sizing: inherit;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.65;
+    appearance: none;
+    background-color: transparent;
+    border-radius: 4px;
+    border: solid 1px;
+    color: inherit;
+    display: block;
+    outline: 0;
+    padding: 0 0.825rem;
+    text-decoration: none;
+    width: 100%;
+    height: 2.75rem;
+    border-color: rgba(0, 0, 0, 0.2);
+    box-shadow: none;
+}
+.field {
+    --vimium-background-color: #1d1d1f;
+    --vimium-background-text-color: #e3e3e3;
+    --vimium-foreground-color: #292a2d;
+    --vimium-foreground-text-color: #e8eaed;
+    --vimium-link-color: #8ab4f8;
+    -webkit-text-size-adjust: none;
+    color: #000000;
+    text-align: left;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+.textarea {
+    --vimium-background-color: #1d1d1f;
+    --vimium-background-text-color: #e3e3e3;
+    --vimium-foreground-color: #292a2d;
+    --vimium-foreground-text-color: #e8eaed;
+    --vimium-link-color: #8ab4f8;
+    -webkit-text-size-adjust: none;
+    box-sizing: inherit;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.65;
+    appearance: none;
+    background-color: transparent;
+    border-radius: 4px;
+    border: solid 1px;
+    color: inherit;
+    display: block;
+    outline: 0;
+    text-decoration: none;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 768px) {
+    .sectionone,
+    .sectiontwo,
+    .sectionthree,
+    .sectionfour {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .content {
+        width: 90%;
+        padding: 2rem 1rem;
+    }
+
+    .heading {
+        font-size: 2.5rem;
+    }
+
+    .paragraph {
+        font-size: 1.1rem;
+    }
+
+    .image,
+    .image2,
+    .imagec3 {
+        width: 80%;
+        min-width: auto;
+        margin-bottom: 1rem;
+    }
+
+    .field1 {
+        width: 100%;
+        float: none;
+        text-align: left !important;
+        margin-bottom: 0.5rem;
+    }
+    .field2 {
+        width: 100%;
     }
 }
 
-.input {
-    @media screen {
-        --vimium-background-color: #1d1d1f;
-        --vimium-background-text-color: #e3e3e3;
-        --vimium-foreground-color: #292a2d;
-        --vimium-foreground-text-color: #e8eaed;
-        --vimium-link-color: #8ab4f8;
-        -webkit-text-size-adjust: none;
-        box-sizing: inherit;
-        font-family: "Source Sans Pro", Helvetica, sans-serif;
-        font-size: 1rem;
-        font-weight: 300;
-        line-height: 1.65;
-        appearance: none;
-        background-color: transparent;
-        border-radius: 4px;
-        border: solid 1px;
-        color: inherit;
-        display: block;
-        outline: 0;
-        padding: 0 0.825rem;
-        text-decoration: none;
-        width: 100%;
-        height: 2.75rem;
-        border-color: rgba(0, 0, 0, 0.2);
-        box-shadow: none;
+/* Mobile (≤480px) */
+@media screen and (max-width: 480px) {
+    .heading {
+        font-size: 2rem;
     }
-}
-.field {
-    @media screen {
-        --vimium-background-color: #1d1d1f;
-        --vimium-background-text-color: #e3e3e3;
-        --vimium-foreground-color: #292a2d;
-        --vimium-foreground-text-color: #e8eaed;
-        --vimium-link-color: #8ab4f8;
-        -webkit-text-size-adjust: none;
-        color: #000000;
-        text-align: left;
-        box-sizing: inherit;
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font: inherit;
-        vertical-align: baseline;
+
+    .heading2 {
+        font-size: 1.5rem;
     }
-}
-.textarea {
-    @media screen {
-        --vimium-background-color: #1d1d1f;
-        --vimium-background-text-color: #e3e3e3;
-        --vimium-foreground-color: #292a2d;
-        --vimium-foreground-text-color: #e8eaed;
-        --vimium-link-color: #8ab4f8;
-        -webkit-text-size-adjust: none;
-        box-sizing: inherit;
-        font-family: "Source Sans Pro", Helvetica, sans-serif;
+
+    .paragraph {
         font-size: 1rem;
-        font-weight: 300;
-        line-height: 1.65;
-        appearance: none;
-        background-color: transparent;
-        border-radius: 4px;
-        border: solid 1px;
-        color: inherit;
-        display: block;
-        outline: 0;
-        text-decoration: none;
+    }
+
+    .buttonstyle {
+        font-size: 0.7rem;
+        min-width: auto;
         width: 100%;
-        padding: 0.75rem 1rem;
-        border-color: rgba(0, 0, 0, 0.2);
+    }
+
+    .content {
+        padding: 1rem;
+    }
+
+    .image,
+    .image2,
+    .imagec3 {
+        width: 100%;
     }
 }
